@@ -13,7 +13,16 @@
 
     <!-- Bootstrap Core CSS - Uses Bootswatch Flatly Theme: http://bootswatch.com/flatly/ -->
     <link href="css/bootstrap.css" rel="stylesheet">
-
+    <script src="//fast.eager.io/ovd43W-riD.js"></script>
+    <script> 
+        function validateButton() {
+            var sText = document.forms["searchForm"]["q"].value;
+            if (sText==null || sText=="") {
+            alert("Please enter text to Search");
+            return false;
+            }
+        }
+    </script>
     <!-- Custom CSS -->
     <link href="css/freelancer.css" rel="stylesheet">
 
@@ -21,13 +30,6 @@
     <link href="font-awesome-4.1.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
     <link href="http://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
     <link href="http://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet" type="text/css">
-
-    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
-    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-    <!--[if lt IE 9]>
-        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
-        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
-        <![endif]-->
 
     </head>
     <body id="page-top" class="index">
@@ -54,16 +56,8 @@
                         </li>
 
                         <li class="page-scroll">
-                            <a href="index.html">Home</a>
+                            <a href="/">Home</a>
                         </li>
-                    <!--
-                    <li class="page-scroll">
-                        <a href="#about">About</a>
-                    </li>
-                    <li class="page-scroll">
-                        <a href="#contact">Contact</a>
-                    </li>
-                -->
             </ul>
         </div>
         <!-- /.navbar-collapse -->
@@ -76,8 +70,8 @@
 <div class="container">
     <div class="row">
         <div class="col-lg-12" style = "width:1030px;">
-            <div id="sheader">
-                <form id="snewsearch" method="post" action="/viewsearch">
+            <div id="sheader" style="padding-left:35px; padding-right:35px; padding-top: 35px; padding-bottom: 35px; border-bottom-right-radius: 20px; border-bottom-left-radius: 20px; border-top-left-radius: 20px; sborder-top-right-radius: 20px; margin-top:50px;border-top-right-radius: 20px">
+                <form id="snewsearch" name="searchForm" method="post" action="/viewsearch" onSubmit="return validateButton ()">
                     <input type="text" class="stextinput" name="q" title="Search in Solution Box" placeholder="Enter your query to search..">
                     <input type="submit" value="SEARCH" class="sbutton">
                 </form>
@@ -97,7 +91,7 @@
                         <p>San Jose State University<br>One Washington Square, San Jose CA 95112</p>
                     </div>
                     <div class="footer-col col-md-4">
-                        <h3>Around the Web</h3>
+                        <h3>Follow Us On</h3>
                         <ul class="list-inline">
                             <li>
                                 <a href="https://www.facebook.com/" class="btn-social btn-outline"><i class="fa fa-fw fa-facebook"></i></a>
@@ -118,7 +112,7 @@
                     </div>
                     <div class="footer-col col-md-4">
                         <h3>Authors</h3>
-                        <p>Vrushank Doshi, Jenil Doshi, Vijesh Jain</a>.</p>
+                        <p>Vrushank Doshi, Jenil Doshi, Vijesh Jain, Anup Dudani</a>.</p>
                     </div>
                 </div>
             </div>
