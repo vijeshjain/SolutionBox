@@ -1,26 +1,10 @@
-# [Start Bootstrap](http://startbootstrap.com/) - [Freelancer](http://startbootstrap.com/template-overviews/freelancer/)
+# [Motivation/Problem Statement:]
+In today's highly advanced technological world, a problem itself comes with a solution, which somebody has experienced it before. Problems can be of any kind, let's say a programming problem in Java. So, whenever a problem is encountered, the very first approach to resolve it is to find a similar problem posted on the internet Q&A websites like Stack Overflow, Quora and many more forums related to it. The least preferred method is to lookup the user manual or the documentation provided by the vendor of the software product, as the document is very lengthy and not specific to the problem. Thus, the time consumed to find the solution will increase as the problem need to be searched through many forums, provided accuracy of the solution found is also to be kept in mind. In short, a set of concise document is required for a problem of a topic (e.g. Cloud, Big Data, Java, and Node JS) which provides only best and accurate solution from various Q&A website sources.
 
-[Freelancer](http://startbootstrap.com/template-overviews/freelancer/) is a one page freelancer portfolio theme for [Bootstrap](http://getbootstrap.com/) created by [Start Bootstrap](http://startbootstrap.com/). This theme features several content sections, a responsive portfolio grid with hover effects, full page portfolio item modals, and a working PHP contact form.
+## [Methods/procedure/Approach:]
 
-## Getting Started
+In today's highly advanced technological world, a problem itself comes with a solution, which somebody has experienced it before. Problems can be of any kind, let's say a programming problem in Java. So, whenever a problem is encountered, the very first approach to resolve it is to find a similar problem posted on the internet Q&A websites like Stack Overflow, Quora and many more forums related to it. The least preferred method is to lookup the user manual or the documentation provided by the vendor of the software product, as the document is very lengthy and not specific to the problem. Thus, the time consumed to find the solution will increase as the problem need to be searched through many forums, provided accuracy of the solution found is also to be kept in mind. In short, a set of concise document is required for a problem of a topic (e.g. Cloud, Big Data, Java, and Node JS) which provides only best and accurate solution from various Q&A website sources.
 
-To use this theme, choose one of the following options to get started:
-* Download the latest release on Start Bootstrap
-* Fork this repository on GitHub
+## [Results/Findings/ Product:]
 
-## Bugs and Issues
-
-Have a bug or an issue with this theme? [Open a new issue](https://github.com/IronSummitMedia/startbootstrap-freelancer/issues) here on GitHub or leave a comment on the [template overview page at Start Bootstrap](http://startbootstrap.com/template-overviews/freelancer/).
-
-## Creator
-
-Start Bootstrap was created by and is maintained by **David Miller**, Managing Parter at [Iron Summit Media Strategies](http://www.ironsummitmedia.com/).
-
-* https://twitter.com/davidmillerskt
-* https://github.com/davidtmiller
-
-Start Bootstrap is based on the [Bootstrap](http://getbootstrap.com/) framework created by [Mark Otto](https://twitter.com/mdo) and [Jacob Thorton](https://twitter.com/fat).
-
-## Copyright and License
-
-Copyright 2014 Iron Summit Media Strategies, LLC. Code released under the [Apache 2.0](https://github.com/IronSummitMedia/startbootstrap-freelancer/blob/gh-pages/LICENSE) license.
+Finally, a brief document will be generated based on the above algorithm which will have highest accuracy and best possible solution to the problem of the user. A minified version of a user manual can be generated from the above result that will serve as a Help document for most searched problems online. The advantage factor would be that, the user will not have to look for solutions on different websites, as our result will provide them with a concise and top solutions from various websites. Hence, this result will save time for the users who search for solutions online and need it real quick.
