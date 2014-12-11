@@ -38,7 +38,7 @@ context.search.excerpts(qfilter, function(err, results) {
               {
               scoreOld.push(results.items[i].score);
               }
-
+              console.log("Old Score..........: " + scoreOld);
               results.items.sort(function(obj1, obj2) {
               // Ascending: first age less than the previous
               return obj2.score - obj1.score;
@@ -53,6 +53,7 @@ context.search.excerpts(qfilter, function(err, results) {
                 text[i] = results.items[i].body;
                 tags[i] = results.items[i].tags;
             }
+            console.log("New Score..........: " + score);
             exports.questionId = questionId;
             exports.text1 = text;
             exports.score = score;
@@ -60,7 +61,7 @@ context.search.excerpts(qfilter, function(err, results) {
             exports.answercount = answercount;
             exports.title1 = title;
             exports.tags = tags;
-            console.log(tags);
+            //console.log(tags);
 
 
            res.render('results', {results: results, title: title, text: text, q: req.param("q") }, function(err, result){
@@ -108,7 +109,7 @@ exports.allanswers = function(req, res){
         var acceptedbody = [];
 
  obj.push(req.param('qid'));
-console.log(obj);
+//console.log(obj);
         var options = {
             version: 2.2
         };
@@ -169,7 +170,7 @@ exports.bestanswer = function(req, res){
         var acceptedbody = [];
 
         obj.push(req.param('id'));
-        console.log(obj);
+        //console.log(obj);
         var options = {
             version: 2.2
         };
@@ -238,7 +239,7 @@ exports.tags = function(req, res){
                          {
                              count[i] = results.items[i].count;
                          }   
-                          console.log(count);       
+                          //console.log(count);       
                         res.render('tags', {results: results, count: count}, function(err, result){
                             if(!err)
                             {

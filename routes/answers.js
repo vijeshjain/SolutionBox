@@ -22,7 +22,7 @@ exports.answers = function(req, res) {
                                         context.answers.answers(filter, function(err, results) {
                                                 if (err) throw err;
 
-                                                console.log(results);
+                                                //console.log(results);
                                                 res.render('results', {results: JSON.stringify(results)}, function(err, result){
                                                         if(!err)
                                                         {
