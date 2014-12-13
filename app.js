@@ -38,6 +38,40 @@ app.get('/viewsearch', search.viewsearch);
 app.get('/tags', search.tags);
 
 
-http.createServer(app).listen(app.get('port'), function(){
-	console.log('Express server listening on port ' + app.get('port'));
+// Error Handling
+// app.use(function(req, res, next){
+// 	res.status(404);
+
+
+//   // respond with html page
+//   if (req.accepts('html')) {
+//   	res.render('invalid');
+//   	return;
+//   }
+
+//   // respond with json
+//   if (req.accepts('json')) {
+//   	res.send({ error: 'Not found' });
+//   	return;
+//   }
+
+//   // default to plain-text. send()
+//   res.type('txt').send('Not found');
+// });
+
+app.use(function(req, res) {
+	res.status(404);
+	res.render('invalid');
 });
+
+  // Handle 500
+  app.use(function(error, req, res, next) {
+  	res.status(500);
+  	res.render('invalid');
+  });
+
+
+
+  http.createServer(app).listen(app.get('port'), function(){
+  	console.log('Express server listening on port ' + app.get('port'));
+  });
