@@ -5,7 +5,7 @@ In today's highly advanced technological world, a problem itself comes with a so
 
 1) Bulk data collection would be required from many Q&A based websites with respect to a topic. 
 2) Topics would be a set of keyword which can be pre-defined or can be taken at real-time from the user. 3) For example, "Unable to install Hadoop on Ubuntu" is a problem statement of a user. So, now our algorithm will look up for answers related to the above problem posted online. At this point, we would store only the highest rated (up voted) answers for that specific problem from all different websites. (E.g. top 10 up voted answers from each of the websites). 
-4) So, if we have a look up from 5 websites than in all we would have 10 x 5 = 50 best solutions.
+4) So, if we have a look up from 5 websites than in all we would have 10 x 5 = 50 best solutions in our box.
 
 ## Results/Findings/ Product:
 
