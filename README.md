@@ -1,4 +1,4 @@
-### Live Demo: http://solutionboxdemo.mybluemix.net/
+
 
 # Project Description:
 - A Web based application which fetches top-rated answers using StackOverFlow API in a sorted format based on the relevance of the results for a user's query.
